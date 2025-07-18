@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<svg width="106.00782394174519" height="104.68749999999999" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" class="css-1j8o68f" version="1.1">
+
+ <g class="layer">
+  <title>Layer 1</title>
+  <polyline fill="none" id="svg_5" opacity="0.5" points="30.003884297609375,61.143748846650226 " stroke-linecap="round"/>
+  <rect fill="#bfbfbf" height="109" id="svg_12" width="108" x="0" y="-3.86"/>
+  <path d="m87.81,83.92c0,1.08 -0.95,1.95 -2.13,1.95l-13.62,0c-1.18,0 -2.13,-0.87 -2.13,-1.95l0,-26.49c0,-1.08 0.95,-1.95 2.13,-1.95l13.62,0c1.18,0 2.13,0.87 2.13,1.95l0,26.49zm-50.43,0c0,1.08 -0.95,1.95 -2.13,1.95l-13.62,0c-1.17,0 -2.13,-0.87 -2.13,-1.95l0,-26.49c0,-1.08 0.95,-1.95 2.13,-1.95l13.62,0c1.17,0 2.13,0.87 2.13,1.95l0,26.49zm16.46,-71.83c-24.65,0 -44.66,18.15 -44.96,40.64l7.8,0c0.25,-18.59 16.79,-33.59 37.16,-33.59c20.37,0 36.91,15 37.16,33.59l7.8,0c-0.3,-22.49 -20.32,-40.64 -44.96,-40.64zm-44.9,61.25l7.66,0l0,-20.65l-7.66,0l0,20.65zm81.99,-20.65l0,20.65l7.94,0l0,-20.65l-7.94,0z" fill="#ffffff" id="svg_9"/>
+  <text fill="#3f007f" font-family="Times" font-size="55" font-style="normal" font-weight="bold" id="svg_10" stroke-width="0" text-anchor="middle" transform="matrix(1 0 0 1 0 0) matrix(1.28051 0 0 1.23512 -9.63956 -23.5169)" x="48.92" xml:space="preserve" y="87.44">T</text>
+ </g>
+</svg>
