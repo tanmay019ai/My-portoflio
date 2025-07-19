@@ -3,9 +3,10 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
+// Earth model component
 const Earth = () => {
   const earth = useGLTF('./planet/scene.gltf');
-  
+
   return (
     <primitive
       object={earth.scene}
@@ -16,6 +17,7 @@ const Earth = () => {
   );
 };
 
+// Canvas wrapper with safe context loss handling
 const EarthCanvas = () => {
   return (
     <Canvas
@@ -23,9 +25,11 @@ const EarthCanvas = () => {
       frameloop="demand"
       camera={{ fov: 45, near: 0.1, far: 200, position: [-4, 3, 6] }}
       gl={{ preserveDrawingBuffer: true }}
-      onContextLost={(e) => {
-        e.preventDefault();
-        console.warn("WebGL context lost. Trying to recover...");
+      onCreated={({ gl }) => {
+        gl.domElement.addEventListener('contextlost', (e) => {
+          e.preventDefault();
+          console.warn("WebGL context lost. Attempting recovery...");
+        });
       }}
     >
       <Suspense fallback={<CanvasLoader />}>
